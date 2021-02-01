@@ -251,7 +251,6 @@ body{
         display:flex;
         font-size: 1.5em;
     }
-   
     .caja{
         padding: 10vh 0 0 0;
     }
@@ -276,4 +275,9 @@ body{
     .footer .redes .rrss .a .fab{
         font-size: 90%;
     }
+
+    .menu.display{
+        display:flex
+    }
+
 }
