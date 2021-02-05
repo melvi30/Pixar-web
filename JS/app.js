@@ -1,7 +1,8 @@
-// Cuando haga click en "fas fab-bar" se abre "menu.display"
+// Cuando hago click en "fas fab-bar" añado ver a "menu"
 
-const fas = document.querySelector(".fab")
+const fas = document.querySelector(".fas")
+const menu = document.querySelector(".menu")
 
-fas.addEventListener ("click",function() {
-    fas.classList.add("menu.display")
+fas.addEventListener("click",function() {
+    menu.classList.toggle("ver")
 })
