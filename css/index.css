@@ -276,8 +276,7 @@ body{
         font-size: 90%;
     }
 
-    .menu.display{
-        display:flex
+    .menudisplay{
+        display: flex;
     }
-
 }
