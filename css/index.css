@@ -88,7 +88,7 @@ body{
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
+    justify-content: flex-end;
     align-items: center;
     align-content: initial;
 }
@@ -100,6 +100,7 @@ body{
     font-weight: 200;
     
     position: relative;
+   
 }
 .header .centrado .menu .ul .li .submenu{
     position: absolute;
@@ -113,12 +114,12 @@ body{
 
     color: var(--blanco);
     line-height: 1.8em;
-    
-    transition:all 7s ease;
+    transition:all 5s ease-in; 
 }
 /* .header .centrado .menu .ul .li .submenu .categoria{} */
 .header .centrado .menu .ul .li:hover .submenu{
-    display: block;   
+    display: block;  
+     
 }
 
 
@@ -130,7 +131,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 
     display: flex;
     flex-flow: row wrap;
@@ -249,9 +250,9 @@ body{
         display: none;
         position: relative;
     }
-        .header .centrado .menu.ver{
-            display:flex
-        }
+    .header .centrado .menu.ver{
+        display:flex
+    }
     .header .centrado .menu .ul{
         flex-direction: column;
         justify-content: flex-start;
@@ -292,5 +293,6 @@ body{
     .footer .redes .rrss .a .fab{
         font-size: 95%;
     }
+
 
 }
